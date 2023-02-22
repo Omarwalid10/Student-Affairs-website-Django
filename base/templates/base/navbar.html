@@ -1,0 +1,12 @@
+    {% load static %}
+    <header>
+        <img src="{%static 'images/FCAI-LOGO_new.png' %}" alt="FCAI Logo" id="Logo1">
+        <img src="{%static 'images/CU_LOGO.png'%}" alt="CU Logo" id="Logo2">
+    </header>
+    <div style="background-color: rgb(19, 103, 200);">
+        <a href="{% url 'homepage'%}" style="padding: 15px;">Home Page</a>
+        <a href="{% url 'edit' %}"style="padding: 15px;">Edit Student</a>
+        <a href="{% url 'search'%}"style="padding: 15px;">Search</a>
+        <a href="{% url 'studentlist' %}" style="padding: 15px;">Students list</a>
+        <a href="{% url 'addstudent'%}"style="padding: 15px;">Add Students</a>
+    </div>

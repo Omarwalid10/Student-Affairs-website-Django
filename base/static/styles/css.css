@@ -1,0 +1,93 @@
+.header {
+    padding: 10px;
+    margin: 10;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+  #theForm{
+  text-align: left;
+  width:40%;
+  position: absolute;
+  margin-left: 30%;
+  margin-right: 30%;
+  }
+  #theForm p{
+    font-size: 20px;
+    margin: 10px 10px;
+  }
+  #theForm input{
+    font-size: 16px;
+    padding: 15px 10px;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+  }
+ #buttonF{
+   text-align: center;
+   padding: 4px 4px;
+   width: 30%;
+   height: 0%;
+   margin-top: 15px; 
+   margin-left: 10px;
+ }
+
+  table {
+    border: 3px solid #e2b03b;
+    width: 50%;
+    text-align: center; 
+    margin: auto;
+    margin-right: 25%;
+} 
+ th {
+    border: 3px solid #3f5b18;
+    width: 55%;
+text-align: center;  
+}
+td {
+    border: 3px solid #2a4209;
+    width: 55%;
+text-align: center;  
+}
+.subb:hover{
+    position: fixed;
+  bottom: 100px;
+  right: 5%;
+  width: 200px;
+  background-color: rgb(19, 103, 200);
+  height: 40px;
+
+}
+.subb{
+  position: fixed;
+  bottom: 100px;
+  right: 5%;
+  width: 200px;
+  height: 40px;
+  background-color: #0a277a;
+
+
+}.wasubb{
+    position: fixed;
+  bottom: 200px;;
+  left: 40%;
+  
+  width: 20%;
+  height: 5%;
+  border: 3px solid #18a0aa;
+background-color: #7da7f0;
+
+
+}
+.wasubb2{
+    position: fixed;
+  bottom: 100px;;
+  left: 40%;
+  
+  width: 20%;
+  height: 5%;
+  border: 3px solid #18a0aa;
+background-color: #7da7f0;
+}
